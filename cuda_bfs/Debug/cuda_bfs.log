@@ -1,0 +1,15 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\siddh\documents\visual studio 2015\Projects\cuda_bfs_somewhere\cuda_bfs_somewhere>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o Debug\kernel.cu.obj "C:\Users\siddh\documents\visual studio 2015\Projects\cuda_bfs_somewhere\cuda_bfs_somewhere\kernel.cu" 
+C:/Users/siddh/documents/visual studio 2015/Projects/cuda_bfs_somewhere/cuda_bfs_somewhere/kernel.cu(35): warning : variable "k" was declared but never referenced
+C:/Users/siddh/documents/visual studio 2015/Projects/cuda_bfs_somewhere/cuda_bfs_somewhere/kernel.cu(36): warning : variable "i" was declared but never referenced
+C:/Users/siddh/documents/visual studio 2015/Projects/cuda_bfs_somewhere/cuda_bfs_somewhere/kernel.cu(35): warning : variable "k" was declared but never referenced
+C:/Users/siddh/documents/visual studio 2015/Projects/cuda_bfs_somewhere/cuda_bfs_somewhere/kernel.cu(36): warning : variable "i" was declared but never referenced
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  kernel.cu
+  cuda_bfs_somewhere.vcxproj -> C:\Users\siddh\documents\visual studio 2015\Projects\cuda_bfs_somewhere\Debug\cuda_bfs_somewhere.exe
+  cuda_bfs_somewhere.vcxproj -> C:\Users\siddh\documents\visual studio 2015\Projects\cuda_bfs_somewhere\Debug\cuda_bfs_somewhere.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\siddh\documents\visual studio 2015\Projects\cuda_bfs_somewhere\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+          2 file(s) copied.
