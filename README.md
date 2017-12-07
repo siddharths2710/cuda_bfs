@@ -1,5 +1,7 @@
 # Breadth First Search with Nvidia Cuda
 
+![BFS](https://s3.amazonaws.com/nvlabs-qwiklab-website-prod/badges/images/8/original/badge-nvidia-cuda-cpp.png?1433877963)
+
 * This implementation of the Breadth First Search is based on the paper [**Accelerating Large Graph Algorithms on the GPU
 Using CUDA**](http://www.nvidia.co.uk/content/cudazone/CUDABrowser/downloads/Accelerate_Large_Graph_Algorithms/HiPC.pdf) by Pawan Harish and P.J. Narayanan. 
 
